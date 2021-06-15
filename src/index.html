@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Metline</title>
+</head>
+<body>
+
+<section class="first-screen">
+    <div class="container">
+        <div class="overlay">
+            <div class="menu">
+                <a class="logo-link" href="#">
+                    <img class="logo" src="icons/logo.png" alt="logo">
+                </a>
+                <nav class="navbar">
+                    <a class="navbar-item" href="#"><span>Главная</span></a>
+                    <a class="navbar-item" href="#">Каталог</a>
+                    <a class="navbar-item" href="#">Продукция</a>
+                    <a class="navbar-item" href="#">Контакты</a>
+                    <a class="navbar-item" href="#">Вакансии</a>
+                    <a class="navbar-item" href="#">Профиль</a>
+                </nav>
+                <div class="menu-container">
+                    <img class="search" src="icons/searching.png" alt="searching">
+                    <div class="phone">
+                        <img class="phone-img" src="icons/phone.png" alt="phone">
+                        <div class="phone-number">8 (800) 000 00 00</div>
+                    </div>
+                    <div class="city">
+                        <img src="icons/location.png" alt="location">
+                        <div class="current-city">Москва</div>
+                    </div>
+                </div>
+            </div>
+            <div class="screens">
+                <div class="screens__item-wrapper">
+                    <div class="screens__item-active"></div>
+                </div>
+                <div class="screens__item-wrapper">
+                    <div class="screens__item"></div>
+                </div>
+                <div class="screens__item-wrapper">
+                    <div class="screens__item"></div>
+                </div>
+                <div class="screens__item-wrapper">
+                    <div class="screens__item"></div>
+                </div>
+            </div>
+            <h1 class="first-screen__header">Изготовление металлоконструкций в Краснодаре и в Москве</h1>
+            <div class="line"></div>
+            <div class="first-screen__descr">
+                Завод металлоизделий «МЕТЛАЙН» изготавливает и продает конструкции разного назначения. Мы рады сотрудничеству со строительными, сельскохозяйственными, промышленными и другими предприятиями. Собственное налаженное производство в Москве и Краснодаре, где вы можете купить металлоконструкции с доставкой по всем регионам России.
+            </div>
+            <div class="first-screen__button">
+                <button class="first-screen__button-request">Отправить заявку</button>
+                <button class="first-screen__button-catalog">Каталог</button>
+            </div>
+            <div class="warning">
+                <img class="warning__img" src="icons/Mword.png" alt="Mword">
+                <div class="warning__descr">Внимание участились случаи мошенечества</div>
+            </div>
+            <div class="advantages">
+                <div class="advantages__position"><span>25 000</span> позиций</div>
+                <div class="advantages__branch"><span>2</span> филиала</div>
+                <div class="advantages__production"><span>150</span> тн</div>
+            </div>
+            <div class="player">
+                <div class="player__circle">
+                    <div class="player__pause">||</div>
+                    <div class="player__play"></div>
+                </div>
+            </div>
+        </div>
+    <video autoplay muted loop id="myVideo">
+        <source src="video/video-welding.mp4" type="video/mp4">
+    </video>
+    </div>
+</section>
+
+<section class="catalog">
+    <div class="container">
+        <div class="catalog__shadow"></div>
+        <h2 class="catalog__header">Каталог</h2>
+        <div class="catalog__line"></div>
+        <div class="catalog__descr">
+            Производственно-коммерческая фирма  «МЕТЛАЙН» предлагает различные виды металлоконструкций и изделий из металла. Они используются в строительстве, в том числе дорожном, перерабатывающей и добывающей промышленности. 
+        </div>
+        <div class="catalog__line-small"></div>
+        <div class="catalog__rectangle">
+            <div class="rectangle-container">                  
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Опоры-трубопроводов.png" alt="Опоры">
+                    <div class="catalog__rectangle-descr">Опоры трубопроводов</div>
+                </div>  
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Закладные-детали.png" alt="ЗД">
+                    <div class="catalog__rectangle-descr">Закладные детали</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Анкерные-тяги.png" alt="АТ">
+                    <div class="catalog__rectangle-descr">Анкерные тяги</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Траверсы.png" alt="Траверсы">
+                    <div class="catalog__rectangle-descr">Траверсы</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Сальники.png" alt="Сальники">
+                    <div class="catalog__rectangle-descr">Сальники</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Лестницы-и-ограждения.png" alt="ЛестницыИОграждения">
+                    <div class="catalog__rectangle-descr">Лестницы и ограждения</div>
+                </div>
+            </div>
+            <div class="rectangle-container">
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Прожекторные-мачты.png" alt="ПМ">
+                    <div class="catalog__rectangle-descr">Прожекторные мачты</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Емкостное-оборудование.png" alt="EO">
+                    <div class="catalog__rectangle-descr">Емкостное оборудование</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Контейнеры-ТБО.png" alt="TBO">
+                    <div class="catalog__rectangle-descr">Контейнеры ТБО</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Фундаментные-болты.png" alt="FB">
+                    <div class="catalog__rectangle-descr">Фундаментные болты</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/ОРУ.png" alt="ORU">
+                    <div class="catalog__rectangle-descr">ОРУ</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Металлические-формы.png" alt="MF">
+                    <div class="catalog__rectangle-descr">Металлические формы</div>
+                </div>
+            </div>
+            <div class="rectangle-container">
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Осветительные-мачты.png" alt="OM">
+                    <div class="catalog__rectangle-descr">Осветительные мачты</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Металлические-опоры-ВЛ-и-ЛЭТИ.png" alt="VL&LEP">
+                    <div class="catalog__rectangle-descr">Металлические опоры ВЛ и ЛЭП</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Нестандартные-металлоконструкции.png" alt="NM">
+                    <div class="catalog__rectangle-descr">Нестандартные металлоконструкции</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Строительные-металлоконструкции.png" alt="SM">
+                    <div class="catalog__rectangle-descr">Строительные металлоконструкции</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Технологические-металлоконструкции.png" alt="TM">
+                    <div class="catalog__rectangle-descr">Технологические металлоконструкции</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/арматура-трубопровода.png" alt="ArmT">
+                    <div class="catalog__rectangle-descr">арматура трубопровода</div>
+                </div>
+            </div>
+            <div class="rectangle-container-small">
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Регистры-отопления.png" alt="Registr">
+                    <div class="catalog__rectangle-descr">Регистры отопления</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Пружины.png" alt="Пружины">
+                    <div class="catalog__rectangle-descr">Пружины</div>
+                </div>
+                <div class="catalog__rectangle-item">
+                    <img src="icons/catalog-icons/Компенсаторы.png" alt="Компенсаторы">
+                    <div class="catalog__rectangle-descr">Компенсаторы</div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog__request">
+            <img src="icons/catalog-request.png" alt="request">
+            <div class="catalog__request-descr">Оставить заявку</div>
+        </div>
+        <div class="catalog__contacts">
+            <img src="icons/phone.png" alt="phone">
+            <div class="catalog__contacts-descr">Контакты</div>
+        </div>
+        <div class="screens">
+            <div class="screens__item-wrapper">
+                <div class="screens__item"></div>
+            </div>
+            <div class="screens__item-wrapper">
+                <div class="screens__item-active"></div>
+            </div>
+            <div class="screens__item-wrapper">
+                <div class="screens__item"></div>
+            </div>
+            <div class="screens__item-wrapper">
+                <div class="screens__item"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <div class="container">
+        <div class="services__arrows">
+            <img class="services__arrows-left" src="icons/left-arrow.png" alt="left">
+            <img class="services__arrows-right" src="icons/right-arrow.png" alt="right">
+        </div>
+        <div class="services__shadow"></div>
+        <div class="services__wrapper">
+            <div class="services__header-wrap">
+                <h2 class="services__header">Услуги</h2>
+                <div class="services__line"></div>
+            </div>
+            <div class="services__descr-wrap">
+                <div class="services__line-small"></div>
+                <div class="services__descr">
+                    Производственно-коммерческая фирма  «МЕТЛАЙН» специализируется на предоставлении ряда услуг, связанных с обработкой металла. При изготовлении металлоконструкций, необходимых заказчику, обычно выполняется целый комплекс работ различной сложности. К работам по металлообработке относятся: 
+                </div>
+            </div>
+        </div>
+        <div class="slider__wrapper">
+            <div class="slider__inner">
+                <div class="slide__first">
+                    <div class="slide__row">
+                        <img src="images/services-img2/видГальванич.jpg" alt="видГальванич">
+                        <img class="hydro" src="images/services-img2/гидроабразив.jpg" alt="гидроабразив">
+                        <img class="welding" src="images/services-img2/сварка.png" alt="сварка">
+                    </div>
+                    <div class="slide__row">
+                        <img class="termo" src="images/services-img2/термодифф.jpg" alt="termodiff">
+                        <img class="zync" src="images/services-img2/фото-видов-цинкования.jpg" alt="цинкованиe">
+                        <img class="sharp" src="images/services-img2/rezka-metalla-gazovaja.jpg" alt="rezka">
+                    </div>
+                    <div class="purple-box"></div>
+                    <div class="green-box"></div>
+                </div>
+                <div class="slide__second">
+                    <div class="slide__row">
+                        <img src="images/services-img3/gibka.png" alt="gibka">
+                        <img class="colour" src="images/services-img3/pokraska.png" alt="покраска">
+                        <img class="remMet" src="images/services-img3/реМмет.png" alt="реммет">
+                    </div>
+                    <div class="slide__row">
+                        <img class="frezMet" src="images/services-img3/фрезМет.png" alt="фрезМет">
+                        <img class="stain" src="images/services-img3/покраска.png" alt="покрас">
+                        <img class="paint" src="images/services-img3/image.png" alt="image">
+                    </div>
+                    <div class="orange-box"></div>
+                    <div class="blue-box"></div>
+                </div>
+                <div class="slide__third">
+                    <div class="slide__row">
+                        <img src="images/services-img1/картинкаЧертежа.png" alt="картинкаЧертежа">
+                        <img class="frezMet" src="images/services-img1/лазернаяРезка.png" alt="лазернаяРезка">
+                        <img class="paint" src="images/services-img1/kholodnoecinkovanie2.png" alt="kholodnoecinkovanie">
+                    </div>
+                    <div class="slide__row">
+                        <img class="colour" src="images/services-img1/цинкование.png" alt="цинкование">
+                        <img class="remMet" src="images/services-img1/гальваническое.png" alt="гальваническое">
+                        <img class="paint" src="images/services-img1/шлифовка.png" alt="шлифовка">
+                    </div>
+                    <div class="green-box"></div>
+                    <div class="orange-box"></div>
+                    <div class="blue-box"></div>
+                    <div class="purple-box"></div>
+                </div>
+            </div>
+        </div>
+        <div class="screens">
+            <div class="screens__item-wrapper">
+                <div class="screens__item"></div>
+            </div>
+            <div class="screens__item-wrapper">
+                <div class="screens__item"></div>
+            </div>
+            <div class="screens__item-wrapper">
+                <div class="screens__item-active"></div>
+            </div>
+            <div class="screens__item-wrapper">
+                <div class="screens__item"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="feedback">
+    <div class="feedback__overlay"></div>
+    <div class="container">
+        <div class="feedback__background"></div>
+        <div class="feedback__shadow"></div>
+        <div class="feedback__wrapper">
+            <div class="forms">
+                <div class="forms__header">Обратная связь</div>
+                <div class="forms__wrapper">
+                    <div class="forms__inner">
+                        <input class="forms__input" name="name" required placeholder="Ваше имя" type="text"> 
+                        <input class="forms__input" name="phone" required placeholder="Ваш телефон">
+                    </div>
+                    <div class="forms__inner">
+                        <input class="forms__input" name="email" required placeholder="Электронная почта" type="email">
+                        <input class="forms__input" name="company" required placeholder="Компания">
+                    </div> 
+                    <input id="INN" class="forms__input" name="INN" required placeholder="ИНН">
+                    <input  id="message" class="forms__input" name="message" required placeholder="Ваше сообщение">  
+                    <button class="continue">Продолжить</button> 
+                </div>
+            </div>
+            <div class="contacts">
+                <div class="contacts__header">Контактная информация</div>
+                <br>
+                <div class="contacts__branch">Филлиал</div>
+                <br>
+                <div class="contacts__adress">Адрес:<br>
+                    Краснодарский край, г. Краснодар , ул. Тихорецкая , д. 25
+                </div>
+                <div class="contacts__wrapper">
+                    <div class="contacts__wrapper-left">
+                        Телефон отдела прожаж: <br>
+                        E-mail: <br>
+                        Отдел логистики:<br>
+                        E-mail:<br>
+                        Отдел снабжения: <span>snab@email.ru</span>
+                        <br>
+                        Бухгалтерия: <span>buh@mail.ru</span>
+                        <br>
+                        Дежурный оператор:
+                    </div>
+                    <div class="contacts__wrapper-right">
+                        8 (861) 666 66 33<br>
+                        8 (861) 666 66 33<br>
+                        8 (918) 645 70 66<br>
+                        <span>zakaz@mail.ru</span><br>
+                        88612223322<br>
+                        <span>logist@mail.ru</span><br>
+                        Отдел кадров: E-mail: <span>hr@mail.ru</span>
+                        <br>
+                        Отдел качества:
+                        E-mail: <span>info@mail.ru</span>
+                        <br>
+                        8 (918) 800 70 80
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="screens">
+            <div class="screens__item-wrapper">
+                <div class="screens__item"></div>
+            </div>
+            <div class="screens__item-wrapper">
+                <div class="screens__item"></div>
+            </div>
+            <div class="screens__item-wrapper">
+                <div class="screens__item"></div>
+            </div>
+            <div class="screens__item-wrapper">
+                <div class="screens__item-active"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer__map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2819.6193571061017!2d39.02211063289154!3d45.03265199697076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f04ff905d2811d%3A0x9b60c0f7ffaec05e!2z0YPQuy4g0KLQuNGF0L7RgNC10YbQutCw0Y8sIDI1LCDQmtGA0LDRgdC90L7QtNCw0YAsINCa0YDQsNGB0L3QvtC00LDRgNGB0LrQuNC5INC60YDQsNC5LCAzNTAwNTk!5e0!3m2!1sru!2sru!4v1623622209812!5m2!1sru!2sru" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="footer__links">
+        <div class="footer__wrapper">
+            <div class="footer__container">
+                <div class="footer__logo">
+                    <img class="footer__logo-img" src="icons/логотип.png" alt="logo">
+                </div>
+                <div class="footer__copyright">© ОАО«МЕТЛАЙН», 2020 г. Все права защищены.</div>
+                <div class="footer__contacts">
+                    <div class="footer__contacts-menu">
+                        <a class="footer__contacts-item" href="#"><span>Главная</span></a>
+                        <a class="footer__contacts-item" href="#">Каталог</a>
+                        <a class="footer__contacts-item" href="#">Продукция</a>
+                        <a class="footer__contacts-item" href="#">Контакты</a>
+                        <a class="footer__contacts-item" href="#">Вакансии</a>
+                        <a class="footer__contacts-item" href="#">Цены</a>
+                        <div class="footer__contacts-tel">Телефон отдела продаж:
+                        <br>
+                        <br>
+                        <span>8 (800) 600 66 50</span>
+                        <br>
+                        <span>8 (861) 666 66 33</span>
+                        <br>
+                        <span>8 (918) 645 70 66 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__email">
+                    E-mail: <span>zakaz@mail.ru</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+</body>
+</html>
